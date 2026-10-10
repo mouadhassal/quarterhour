@@ -1,0 +1,121 @@
+{
+ "fleet": {
+  "n": 1000,
+  "plug_mean_h": 18.5,
+  "plug_sd_h": 1.2,
+  "leave_mean_h": 7.25,
+  "leave_sd_h": 0.5,
+  "plug_prob": 0.6,
+  "energy_kwh": [
+   5.0,
+   18.0
+  ],
+  "power_kw": [
+   7.4,
+   11.0
+  ],
+  "power_share": [
+   0.6,
+   0.4
+  ]
+ },
+ "per_car_year": {
+  "ee": {
+   "dumb": 276.7931840222679,
+   "hourly": 101.24254278734574,
+   "quarter": 92.27952029460359,
+   "kwh": 2521.079087578548,
+   "saving_hourly": 175.55064123492215,
+   "saving_quarter": 184.51366372766432,
+   "extra_from_quarter": 8.963022492742155,
+   "extra_share": 0.048576470228087074
+  },
+  "fi": {
+   "dumb": 177.7890852422629,
+   "hourly": 80.58424567381432,
+   "quarter": 74.99338229706771,
+   "kwh": 2521.079087578548,
+   "saving_hourly": 97.20483956844858,
+   "saving_quarter": 102.79570294519519,
+   "extra_from_quarter": 5.590863376746611,
+   "extra_share": 0.054388103943676915
+  },
+  "lv": {
+   "dumb": 321.6197550547678,
+   "hourly": 150.6127971748628,
+   "quarter": 141.15027231813002,
+   "kwh": 2521.079087578548,
+   "saving_hourly": 171.00695787990497,
+   "saving_quarter": 180.46948273663776,
+   "extra_from_quarter": 9.462524856732784,
+   "extra_share": 0.05243282528017001
+  },
+  "lt": {
+   "dumb": 322.10814370405313,
+   "hourly": 153.29693726814415,
+   "quarter": 143.92591107407586,
+   "kwh": 2521.079087578548,
+   "saving_hourly": 168.81120643590899,
+   "saving_quarter": 178.18223262997728,
+   "extra_from_quarter": 9.371026194068293,
+   "extra_share": 0.05259237161725695
+  }
+ },
+ "herding_ee": {
+  "dumb": {
+   "mean_nightly_peak_kw": 2137.4771101242977,
+   "p95_nightly_peak_kw": 2321.1073525687634,
+   "eur_per_car_year": 276.49326545986264
+  },
+  "jitter 0": {
+   "mean_nightly_peak_kw": 5089.312839419063,
+   "p95_nightly_peak_kw": 5512.729999999986,
+   "eur_per_car_year": 92.15380101101486,
+   "mean_nightly_hourly_avg_peak_kw": 3010.193244298403
+  },
+  "jitter 0.5": {
+   "mean_nightly_peak_kw": 4675.961002953291,
+   "p95_nightly_peak_kw": 5494.759999999983,
+   "eur_per_car_year": 92.20796695818227,
+   "mean_nightly_hourly_avg_peak_kw": 2776.9674518136344
+  },
+  "jitter 1": {
+   "mean_nightly_peak_kw": 4505.554628487155,
+   "p95_nightly_peak_kw": 5471.531123814026,
+   "eur_per_car_year": 92.31120155103895,
+   "mean_nightly_hourly_avg_peak_kw": 2684.5374110394337
+  },
+  "jitter 2": {
+   "mean_nightly_peak_kw": 4228.668220997797,
+   "p95_nightly_peak_kw": 5426.170438333221,
+   "eur_per_car_year": 92.61435327694758,
+   "mean_nightly_hourly_avg_peak_kw": 2531.907735162836
+  },
+  "jitter 5": {
+   "mean_nightly_peak_kw": 3621.592947671596,
+   "p95_nightly_peak_kw": 5375.121727763782,
+   "eur_per_car_year": 93.73423133660465,
+   "mean_nightly_hourly_avg_peak_kw": 2246.9005988493013
+  },
+  "cap 4 MW": {
+   "mean_nightly_peak_kw": 3965.472538951205,
+   "p95_nightly_peak_kw": 4000.000000000002,
+   "eur_per_car_year": 93.79225591817917
+  },
+  "cap 3 MW": {
+   "mean_nightly_peak_kw": 2997.140756611218,
+   "p95_nightly_peak_kw": 3000.0000000000023,
+   "eur_per_car_year": 96.14965138114235
+  },
+  "cap 2.5 MW": {
+   "mean_nightly_peak_kw": 2500.0000000000005,
+   "p95_nightly_peak_kw": 2500.0000000000023,
+   "eur_per_car_year": 97.99435334590781
+  }
+ },
+ "price_window": [
+  1759276800,
+  1790811900
+ ],
+ "quarter_hours": 35040
+}
